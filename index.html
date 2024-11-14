@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Animais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Quiz de Animais</h1>
+    </header>
+
+    <div class="container">
+        <h2>Responda as questões sobre animais:</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. Qual é o maior animal terrestre?</p>
+                <div class="answers">
+                    <input type="radio" id="elefante" name="q1" value="Elefante">
+                    <label for="elefante">Elefante</label><br>
+                    <input type="radio" id="girafa" name="q1" value="Girafa">
+                    <label for="girafa">Girafa</label><br>
+                    <input type="radio" id="urso" name="q1" value="Urso">
+                    <label for="urso">Urso</label><br>
+                    <img src="urso.png" alt="urso">
+                </div>
+            </div>
+
+            <div class="question">
+                <p>2. Qual é o único mamífero capaz de voar?</p>
+                <div class="answers">
+                    <input type="radio" id="morcego" name="q2" value="Morcego">
+                    <label for="morcego">Morcego</label><br>
+                    <input type="radio" id="passaro" name="q2" value="Pássaro">
+                    <label for="passaro">Pássaro</label><br>
+                    <input type="radio" id="papagaio" name="q2" value="Papagaio">
+                    <label for="papagaio">Papagaio</label><br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>3. Qual desses animais é conhecido por mudar de cor?</p>
+                <div class="answers">
+                    <input type="radio" id="camaleao" name="q3" value="Camaleão">
+                    <label for="camaleao">Camaleão</label><br>
+                    <input type="radio" id="jacare" name="q3" value="Jacaré">
+                    <label for="jacare">Jacaré</label><br>
+                    <input type="radio" id="leao" name="q3" value="Leão">
+                    <label for="leao">Leão</label><br>
+                </div>
+            </div>
+
+            <button type="button" class="btn" onclick="verificarRespostas()">Enviar Respostas</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Quiz de Animais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
